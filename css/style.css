@@ -1,0 +1,227 @@
+/*.............................First part(Header)...........................*/
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: #121B2A;
+	padding: 10px 0;
+}
+.wrapper{
+	width: 82%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 19%;
+	float: left;
+	margin-top: 5px;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	float: right;
+	margin-top: 37px;
+}
+.menu ul{
+	float:right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	font-size: 13px;
+	padding: 0 20px;
+	display: block;
+	color: white;
+	transition: .5s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li:hover a{
+	color: #0279BD;
+}
+/*............................Second part(Banner)..............................*/
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.banner-content{
+	margin-top: 200px;
+	margin-bottom: 50px;
+	width: 55%;
+}
+.banner-content p:first-child{
+	color: white;
+	font-size: 32px;
+	font-family: sans-serif;
+	margin: 0;
+}
+.banner-content h1{
+	color: #0178B9;
+	font-size: 38px;
+	font-family: sans-serif;
+	margin: 0;
+}
+.banner-content p:nth-last-child(2){
+	color: white;
+	font-size: 15px;
+	line-height: 1.5;
+	font-family: sans-serif;
+	margin-bottom: 0;
+}
+.banner-content button{
+	border: none;
+	padding: 10px 20px;
+	border-radius: 3px;
+	color: #5A5A5A;
+	font-size: 16px;
+	margin-top: 20px;
+	background-color: white;
+	text-transform: uppercase;
+}
+/*............................Third part(Services)..............................*/
+.service{
+	background-color: #121B2C;
+	padding: 50px 0;
+}
+.single{
+	width: 26%;
+	padding: 10px 30px;
+	float: left;
+	border-right: 1px solid gray;
+}
+.single:last-child{
+	border: 0;
+}
+.title{
+	overflow: hidden;
+}
+.icon{
+	float: left;
+	width: 25%;
+}
+.icon img{
+	width: 100%
+}
+.icon-content{
+	color: white;
+	float: right;
+	width: 71%;
+	margin-top: 11px;
+}
+.icon-content h1{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+.icon-content h2{
+	margin: 0;
+	font-family: sans-serif;
+	color: #0178B9;
+	font-size: 20px;
+	width: 65%
+}
+.content{}
+.content p{
+	font-family: sans-serif;
+	color: white;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+}
+/*...........................fourth part(Information)...........................*/
+.info{
+	background-color: #040811;
+	padding: 44px 0;
+}
+.information{
+	width: 29%;
+	padding: 16px;
+	float: left;
+	padding-bottom: 0;
+}
+/*.information nth-child(3){
+}
+.information p: nth-child(3){
+	padding-top: 5px;
+	border: 1px solid white;*/
+}
+.common{
+}
+.mobile{
+	float: left;
+}
+.mobile img{
+	width: 100%
+}
+.mob{
+	width: 52%;
+	float: right;
+	padding-top: 7px;
+}
+.mob img{
+	width: 100%
+}
+.common span{
+	color: white;
+	font-family: sans-serif;
+	font-size: 20px;
+	margin: 0;
+}
+.common h2{
+	font-family: sans-serif;
+	color: #0178B9;
+	font-size: 20px;
+	margin-top: 0;
+	margin-right: 0;
+	display: inline-block;
+}
+.title{
+}
+.title h1{
+}
+.title h2{
+	padding-bottom: 12px;
+	width: 100%;
+}
+.content img{
+	width: 100%
+}
+.content span{
+	/*border: 1px solid white;*/
+	padding-top: 20px;
+	color: white;
+	font-family: sans-serif;
+}
+/*..............................last part(Footer).................................*/
+footer{
+	background-color: #121B2A;
+	padding: 15px 0;
+}
+.options{
+	overflow: hidden;
+	display: inline-block;
+	width: 60%;
+	padding-top: 7px;
+}
+.options p{
+	color: white;
+	float: left;
+	margin: 0;
+	margin-bottom: 10px;
+}
+.image{
+	float: right;
+}
+.image img{
+	width: 100%;
+}
