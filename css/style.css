@@ -55,9 +55,9 @@ header{
 	background-position: center;
 }
 .banner-content{
-	margin-top: 200px;
+	margin-top: 210px;
 	margin-bottom: 50px;
-	width: 55%;
+	width: 45%;
 }
 .banner-content p:first-child{
 	color: white;
@@ -94,8 +94,8 @@ header{
 	padding: 50px 0;
 }
 .single{
-	width: 26%;
-	padding: 10px 30px;
+	width: 28%;
+	padding: 10px 24px;
 	float: left;
 	border-right: 1px solid gray;
 }
@@ -148,12 +148,6 @@ header{
 	padding: 16px;
 	float: left;
 	padding-bottom: 0;
-}
-/*.information nth-child(3){
-}
-.information p: nth-child(3){
-	padding-top: 5px;
-	border: 1px solid white;*/
 }
 .common{
 }
@@ -218,6 +212,10 @@ footer{
 	float: left;
 	margin: 0;
 	margin-bottom: 10px;
+}
+.options p a{
+	text-decoration: none;
+	color: white;
 }
 .image{
 	float: right;
