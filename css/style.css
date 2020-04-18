@@ -55,7 +55,7 @@ header{
 	background-position: center;
 }
 .banner-content{
-	margin-top: 210px;
+	margin-top: 250px;
 	margin-bottom: 50px;
 	width: 45%;
 }
@@ -80,13 +80,19 @@ header{
 }
 .banner-content button{
 	border: none;
-	padding: 10px 20px;
+	padding: 12px 20px;
 	border-radius: 3px;
 	color: #5A5A5A;
 	font-size: 16px;
 	margin-top: 20px;
 	background-color: white;
 	text-transform: uppercase;
+}
+.banner-content button:hover{
+	color: white;
+	padding: 11px 19px;
+	background-color: #040811;
+	border: 1px solid white;
 }
 /*............................Third part(Services)..............................*/
 .service{
@@ -216,6 +222,10 @@ footer{
 .options p a{
 	text-decoration: none;
 	color: white;
+	transition: .5s;
+}
+.options p a:hover{
+	color: #0279BD;
 }
 .image{
 	float: right;
